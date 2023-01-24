@@ -127,9 +127,6 @@ PRODUCT_FS_COMPRESSION := 1
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_VENDOR := vendor
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
-
 # Recovery
 ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
 TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/init/etc/fstab.qcom
