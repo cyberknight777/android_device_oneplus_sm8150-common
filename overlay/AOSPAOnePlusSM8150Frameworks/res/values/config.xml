@@ -32,7 +32,6 @@
     <bool name="config_hasAlertSlider">true</bool>
 
     <!-- Gestures' key codes. If the gesture is not supported set it to 0. -->
-    <integer name="config_singleTapKeyCode">255</integer>
     <integer name="config_drawVKeyCode">252</integer>
     <integer name="config_drawOKeyCode">250</integer>
     <integer name="config_drawMKeyCode">247</integer>
