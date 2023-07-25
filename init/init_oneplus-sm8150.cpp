@@ -178,6 +178,7 @@ void vendor_load_properties() {
     case 19861:
       /* OnePlus 7T Pro NR */
       property_override("ro.product.model", "HD1925");
+      property_override("persist.radio.multisim.config", "ssss");
       break;
     }
 
