@@ -60,7 +60,7 @@ fi
 
 function blob_fixup() {
     case "${DEVICE}" in
-        oneplus7t | oneplus7tpro )
+        oneplus7t | oneplus7tpro | oneplus7tpronr)
         case "${1}" in
             vendor/lib64/libgf_ud_hal.so )
             sed -i "s|vendor.boot.verifiedbootstate|vendor.boot.fingerprintbstate|g" "${2}"
