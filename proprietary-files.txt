@@ -831,7 +831,7 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|c20b05b20874e6b7f14cd61346646c79c363f42f
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|5496f7816036ef71aec0116864032f8a6078aee7
 
-# SS Restar - from LA.UM.9.1.r1-12900-SMxxx0.0t
+# SS Restart - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ssr_diag|85f08630de1eed07e2ec107c453da3db49c5c9db
 vendor/bin/ssr_setup|63d4825284d0966a16106e532d96677477ffe71e
 vendor/bin/subsystem_ramdump|a8188725e6ab33effdb220dffdaac3eb830b1dc2
