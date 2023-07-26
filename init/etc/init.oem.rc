@@ -293,10 +293,6 @@ on post-fs-data
     chown system system /sys/devices/platform/vendor/vendor:motor_pl/direction
     chown system system /sys/devices/platform/vendor/vendor:motor_pl/position
 
-#ifdef VENDOR_EDIT
-    setprop persist.vendor.mdm_helper.fail_action cold_reset,s3_reset,panic
-#endif
-
 # denzel.chen@performance, 2020/05/12, add for OPBRITN-3462
 # system server cannot write to /proc/sys files,
 # and chown/chmod does not work for /proc/sys/ entries.

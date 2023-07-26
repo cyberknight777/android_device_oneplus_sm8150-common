@@ -6,10 +6,14 @@
 /(vendor|system/vendor)/bin/wifi-mac-generator      u:object_r:wifi-mac-generator_exec:s0
 
 # Block devices
-/dev/block/platform/soc/1d84000\.ufshc/by-name/config         u:object_r:frp_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/oem_dycnvbk    u:object_r:oem_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/oem_stanvbk    u:object_r:oem_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/param          u:object_r:param_block_device:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/config             u:object_r:frp_block_device:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdm_oem_dycnvbk    u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdm_oem_stanvbk    u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdm1oemnvbktmp     u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdmddr             u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/oem_dycnvbk        u:object_r:vendor_modem_efs_partition_device:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/oem_stanvbk        u:object_r:vendor_modem_efs_partition_device:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/param              u:object_r:param_block_device:s0
 
 # FW OTA
 /dev/block/platform/soc/1d84000\.ufshc/by-name/LOGO_[ab]      u:object_r:vendor_custom_ab_block_device:s0

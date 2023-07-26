@@ -521,10 +521,13 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# MDM - from LA.UM.9.1.r1-12900-SMxxx0.0
-vendor/bin/ks|3d26cb693f66345a15339755249c6a8519dab9c7
-vendor/bin/mdm_helper|e6b2ee0b4a3b5f93f99b3ac35bd1fc885b90a8bd
-vendor/lib64/libmdmimgload.so|c58679d001bae43db9173b0077fe0a71d1130d19
+# MDM
+vendor/bin/init.mdm.sh
+vendor/bin/ks
+vendor/bin/mdm_helper
+vendor/bin/mdm_helper_proxy
+vendor/lib64/libmdmimgload.so
+vendor/lib64/liboemnvbk_img_helper.so
 
 # MM OSAL - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/lib/libmmosal.so|04a064cd6867ebba2c623a84606f76dbeea9d58e

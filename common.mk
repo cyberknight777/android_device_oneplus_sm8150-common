@@ -262,6 +262,11 @@ TARGET_COMMON_QTI_COMPONENTS := \
     usb \
     wfd
 
+# Radio
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.mdm_helper.fail_action=retry,cold_reset,s3_reset,panic \
+    persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # Sensors
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.xml \
@@ -296,10 +301,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.incremental.enable=yes
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
-# Subsystem silent restart
-PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # tri-state key
 PRODUCT_PACKAGES += \
